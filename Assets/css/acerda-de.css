@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Boogaloo", sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.separador {
+    border: 1px solid aqua; /* Añade un borde de 1px sólido con color aqua */
+    margin: 20px 0; /* Añade un espacio alrededor del separador */
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/* ESTILOS HEADER */
+
+.Header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 7vh;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10%;
+    border-bottom: 1px solid #00eeff;
+    
+}
+
+.Header .logo {
+    margin-right: auto; /* Ubica el logo a la izquierda */
+    padding-top: 5px;
+}
+
+.Header .logo img {
+    height: 8vh;
+}
+
+.Header .nav-links {
+    list-style: none;
+    margin-top: 2px;
+    padding: 0;
+}
+
+.Header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.Header .nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.Header .nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.Header .nav-links a:hover {
+    color: aqua;
+}
+
+
+
+.Header .btn button {
+    position: relative;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding: 9px 25px;
+    background: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Header .btn button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 14px 0px rgba(255, 255, 255, 1);
+}
+
+
+/*ESTILOS ACERCA DE*/
+
+.Acerca-de{
+    background-color: #000000;
+}
+
+
+.Acerca-de .contenedor-perfil {
+    text-align: center; /* Centra horizontalmente el contenido */
+    z-index: 2;
+    background-color: #000000;
+}
+
+.Acerca-de .contenedor-perfil .perfilimg {
+    display: inline-block; /* Asegura que la imagen sea un bloque en línea */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    margin-top: 50px;
+}
+
+.Acerca-de .contenedor-perfil img {
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+    object-position: center; 
+    border: 4px solid #00eeff;
+    background-color: #000000;
+}
+
+.Acerca-de .contenedor-perfil .text {
+    padding: 10px 20%;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 5rem;
+    pointer-events: none;
+}
+
+.Acerca-de .contenedor-perfil .redes {
+    text-align: center; /* Centra el texto de las redes sociales */
+    margin-top: 10px;
+    font-size: 1.3rem;
+    transition: all 0.3s ease 0s;
+}
+
+.Acerca-de .contenedor-perfil .redes a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+.Acerca-de .contenedor-perfil .redes a:hover {
+    color: #00eeff;
+    transform: scale(1.1);
+}
+
+/*ESTILOS DEL RESTO *//*https://www.youtube.com/watch?v=2s19KJq49rQ&t=19s= de este video copie el estilo*/
+
+.sobremi{
+    background-color: #000000;
+    color: #fff;
+    padding: 50px 20px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.sobremi .free{
+    color: #000000;
+
+}
+.sobremi .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.sobremi .contenido-seccion p span{
+    color: #00eeff;
+    font-weight: bold;
+}
+.sobremi .fila{
+    display: flex;
+}
+.sobremi .fila .col
+{
+    width: 50%;
+}
+.sobremi .fila .col h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+.sobremi .fila .col ul{
+    list-style: none;
+}
+.sobremi .fila .col ul li{
+    margin: 12px 0;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: #00eeff;
+    width: 130px;
+}
+.sobremi .fila .col ul li span{
+    background-color: #00eeff;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sobremi .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobremi .fila .col .contenedor-intereses .interes{
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}.sobremi .fila .col .contenedor-intereses .interes:hover{
+    background-color: #00eeff;
+}
+.sobremi .fila .col .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    text-decoration: none;
+}
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #00eeff;
+    z-index: -1;
+    transition: 1s;
+    border-radius: 20px;
+}
+.sobremi button:hover .overlay{
+    width: 100%;
+}
+/* SECCION S K I L L S */
+.skills{
+    background-color: #000000;
+    color: #000000;
+    padding: 50px 20px;
+}
+.skills .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.skills h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff;
+
+}
+
+.skills span{
+    color: #ffffff;
+}
+.skills .fila{
+    display: flex;
+}
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+.skills .fila .col h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.skills .skill .barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
+.skills .skill .progreso{
+    background-color: #00eefff1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.skills .skill .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #00eeff;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+    color: #000000;
+}
+/* Estas clases se agregaran dinamicamente mediante javascript */
+.skills .skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss {
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+
+.skills .skill .photoshop{
+    width: 0%;
+    animation: 2s photoshop forwards;
+}
+@keyframes photoshop {
+    0%{width: 0%;}
+    100%{width: 25%;}
+}
+
+.skills .skill .wordpress{
+    width: 0%;
+    animation: 2s wordpress forwards;
+}
+@keyframes wordpress {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .drupal{
+    width: 0%;
+    animation: 2s drupal forwards;
+}
+@keyframes drupal {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .trabajo{
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+@keyframes trabajo {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+
+.skills .skill .proyect{
+    width: 0%;
+    animation: 2s proyect forwards;
+}
+@keyframes proyect {
+    0%{width: 0%;}
+    100%{width: 94%;}
+}
+/* SECCION CURRICULUM */
+.curriculum{
+    background-color: #000000;
+    color: #fff;
+    padding: 50px 20px;
+}
+.curriculum .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.curriculum h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.curriculum .fila{
+    display: flex;
+    justify-content: space-between;
+}
+.curriculum .fila .col{
+    width: 49%;
+    padding: 0 20px;
+}
+.curriculum .fila .col h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+.curriculum .fila .izquierda{
+    border-right: 2px solid #252A2E;
+}
+.curriculum .fila .derecha{
+    border-left: 2px solid #252A2E;
+}
+.curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #252A2E;
+    position: relative;
+}
+.curriculum .fila .item h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item .casa{
+    color: #00eeff;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+.curriculum .fila .item .fecha{
+    display: block;
+    color: #00eeff;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item p{
+    line-height: 24px;
+}
+.curriculum .fila .izq{
+    border-right: 2px solid #00eeff;
+    margin-right: 20px;
+}
+.curriculum .fila .der{
+    border-left: 2px solid #00eeff;
+    margin-left: 20px;
+}
+.curriculum .fila .item .conectori{
+    height: 2px;
+    background-color: #00eeff;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item .conectori .circuloi{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #00eeff;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+.curriculum .fila .item .conectord{
+    height: 2px;
+    background-color: #00eeff;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item .conectord .circulod{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #00eeff;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+
+/* ESTILOS FOOTER */
+
+footer {
+    height: 15vh;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Alinear elementos en columna */
+    justify-content: center; /* Alinear verticalmente en el centro */
+    border-top: 1px solid #00eeff;
+}
+
+.derechos-autor {
+    margin-top: 10px;
+    margin-bottom: 10px; /* Añadir espacio entre los elementos */
+}
+
+.redes-sociales {
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+}
+
+.redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 1px;
+    transition: all 0.3s ease;
+}
+
+.redes-sociales a:hover {
+    color: #00eeff;
+    transform: scale(1.1);
+}
+
+
+/* Personalizar la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 5px; /* Ancho de la barra de desplazamiento */
+    height: 5px;
+  }
+  
+  /* Estilos para la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+    background-color: #00eeff; /* Color del pulgar de la barra de desplazamiento */
+    border-radius: 10px; /* Borde redondeado del pulgar */
+  }
+  
+  /* Estilos cuando se pasa el ratón sobre la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #00ccff; /* Cambiar color al pasar el ratón */
+  }
+  
+  /* Estilos para los botones de flecha de la barra de desplazamiento */
+  ::-webkit-scrollbar-button {
+    display: none; /* Ocultar los botones de flecha */
+  }
+
+

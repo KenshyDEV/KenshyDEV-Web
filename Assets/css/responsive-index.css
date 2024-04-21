@@ -1,0 +1,181 @@
+/*responsive header*/
+@media only screen and (max-width: 768px) {
+    .Header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Header .logo {
+        margin-right: 2px;
+        margin-bottom: -10px; /* Añade espacio entre el logo y el menú */
+    }
+
+    .Header .nav-links {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: -10px; /* Añade espacio entre los enlaces y el botón */
+        margin-right:29px;
+    }
+
+    .Header .nav-links li {
+        padding: 5px 0;
+        margin: 0 5px; /* Añade espacio entre las palabras del navegador */
+    }
+
+    .Header .nav-links a {
+        display: block;
+    }
+
+    .Header .btn {
+
+        margin-top: -10px;
+    }
+}
+
+/*responsive bienvenido*/
+
+@media only screen and (max-width: 768px) {
+    .Bienvenido {
+        height: auto;
+    }
+
+    .Bienvenido .contenedor-perfil .perfilimg {
+        margin-top: 30px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .Bienvenido .contenedor-perfil img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .Bienvenido .contenedor-perfil .text {
+        font-size: 30px;
+        padding: 10px 10%;
+        margin-bottom: 3rem;
+    }
+
+    .Bienvenido #particles-js {
+        height: 42vh;
+        
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .Bienvenido .contenedor-perfil .text {
+        font-size: 24px;
+        padding: 10px 5%;
+    }
+}
+
+
+/*responsive zona de proyectos*/
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 300px;
+        margin: 20px 0;
+    }
+
+    .proyectos .btn button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
+
+
+/*Responsive Acerca De*/
+
+@media only screen and (max-width: 768px) {
+    .Acerca-de {
+        height: auto;
+        padding-bottom: 50px; /* Agrega espacio en la parte inferior para evitar superposiciones */
+    }
+
+    .Acerca-de .perfil img {
+        margin-top: 30px; /* Reducir el margen superior de la imagen */
+        width: 150px;
+        height: 150px;
+    }
+
+    .Acerca-de h2 {
+        font-size: 30px;
+    }
+
+    .Acerca-de h4 {
+        font-size: 24px;
+    }
+
+    .Acerca-de p {
+        font-size: 18px;
+    }
+
+    .Acerca-de .btn button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
+
+/*Responsive seccion de contacto*/
+
+@media only screen and (max-width: 768px) {
+    .contact-section {
+        height: auto;
+        padding-bottom: 50px; /* Agrega espacio en la parte inferior para evitar superposiciones */
+    }
+
+    .contact-form {
+        margin-top: 40px;
+        width: 80%;
+    }
+
+    .contact-form h1 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: calc(100% - 24px); /* Considera el ancho del padding */
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .contact-form textarea {
+        height: 100px;
+    }
+
+    .contact-form .button-container {
+        text-align: center; /* Centra el botón */
+    }
+
+    .contact-form input[type="submit"] {
+        margin-left: 0; /* Elimina el margen izquierdo */
+        padding: 12px 16px; /* Ajusta el padding */
+        font-size: 14px;
+    }
+}
+
+
+/*Responsive footer */
+
+@media only screen and (max-width: 768px) {
+    footer {
+        height: auto;
+        padding: 20px 0; /* Reducir el padding */
+    }
+
+    .redes-sociales {
+        font-size: 1rem; /* Reducir el tamaño del texto */
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "desarrollo": [
+        {
+            "titulo": "PROXIMAMENTE",
+            "imagen": "/img/proyecto1.jpg",
+            "link": "/proyecto1.html"
+        },
+        {
+            "titulo": "PROXIMAMENTE",
+            "imagen": "/img/proyecto2.jpg",
+            "link": "/proyecto2.html"
+        }
+       
+    ]
+}
