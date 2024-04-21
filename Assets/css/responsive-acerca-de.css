@@ -38,8 +38,9 @@
     /*responsive separador*/
 
 .separador {
-    width: 300px;
-    margin-left: 100px;
+    width: 100%;
+    margin-left: -0px;
+    
 }
 
 }
