@@ -1,14 +1,9 @@
 {
     "desarrollo": [
-        {
-            "titulo": "PROXIMAMENTE",
-            "imagen": "/img/proyecto1.jpg",
-            "link": "/proyecto1.html"
-        },
-        {
-            "titulo": "PROXIMAMENTE",
-            "imagen": "/img/proyecto2.jpg",
-            "link": "/proyecto2.html"
+       {
+            "titulo": "MC CONSULTORIAS COMERCIALES",
+            "imagen": "/imgdesarrollos/MC CONSULTORIAS COMERCIALES.PNG",
+            "link": "https://mc-consultorias-comerciales.jimdosite.com/"  
         }
        
     ]
