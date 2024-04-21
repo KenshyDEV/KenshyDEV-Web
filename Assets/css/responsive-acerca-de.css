@@ -145,6 +145,13 @@
         margin: 0; /* Eliminar el margen lateral en dispositivos pequeños */
     }
 
+    .curriculum .fila .derecha {
+        margin-left: -20px;
+    }
+
+    .curriculum .fila .derecha h3{
+        margin-left: 20px;
+    }
     .curriculum .fila .item {
         margin-bottom: 20px; /* Añadir espacio entre los elementos en dispositivos pequeños */
     }
@@ -154,3 +161,4 @@
         display: none; /* Ocultar los conectores en dispositivos pequeños */
     }
 }
+
