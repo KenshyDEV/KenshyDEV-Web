@@ -1,0 +1,24 @@
+[
+    {
+      "category": "webapps",
+      "title": "MC CONSULTORIAS COMERCIALES",
+      "description": "Desarrollo Web con la herramienta JIMDO de MC CONSULTORIAS COMERCIALES",
+      "image": "/proyectosimg/MC CONSULTORIAS COMERCIALES.png",
+      "url": "https://mc-consultorias-comerciales.jimdosite.com"
+    },
+    {
+      "category": "juegos",
+      "title": "Juego1",
+      "description": "Descripción del juego 1",
+      "image": "/img/code-5113374_1920.jpg",
+      "url": "#"
+    },
+    {
+      "category": "prototipos",
+      "title": "Prototipo2",
+      "description": "Descripción del prototipo 2",
+      "image": "/img/code-5113374_1920.jpg",
+      "url": "#"
+    }
+  ]
+  

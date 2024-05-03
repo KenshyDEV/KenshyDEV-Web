@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/cssresponsive/indexresponsive.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Inicio | KenshyDEV</title>
+</head>
+<body>
+
+    <header class="Header">
+          <div class="logo">
+              <a href="/index.html"><img src="/img/devlogo.svg" alt="Logo KenshyDEV"></a>
+              <h1>KenshyDEV</h1>
+          </div>
+          <nav class="nav-links">
+              <ul class="nav-list">
+                  <li><a href="/index.html">Inicio</a></li>
+                  <li><a href="/sobremi.html">Sobre Mi</a></li>
+                  <li><a href="/portafolio.html">Portafolio</a></li>
+              </ul>
+          </nav>
+          <a href="#contacto" class="btn"><button>Contactame</button></a> 
+
+          <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+<!---->        <div id="mobile-menu" class="overlay">
+<!---->            <a onclick="closeNav()" href="" class="close">&times;</a>
+<!---->            <div class="overlay-content">
+<!---->               <a href="/index.html"><i class="fas fa-home"></i> Inicio</a>
+                      <a href="/sobremi.html"><i class="fas fa-user"></i> Sobre Mi</a>
+                      <a href="/portafolio.html"><i class="fas fa-briefcase"></i> Portafolio</a>
+                      <a href="/index.html#contacto"><i class="fa fa-phone"></i> Contactame</a>
+<!---->                
+<!---->            </div>
+<!---->        </div>
+
+    </header>
+
+      <main>
+        <section class="home">
+            <div class="contenedor-perfil">
+                <div class="perfilimg">
+                    <img src="/img/yo4.jpg" alt="Imagen de perfil">
+                </div>
+                <h1>Hola. Soy yo, <span class="highlight">KenshyDEV</span></h1>
+                <div class="text">
+                  <p>Un Desarrollador Creativo</p>
+                </div>
+                <div class="redes">
+                    <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/KenshyDEV" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCQk19vZ6wSwZQOw8LNNOKUA" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.twitch.tv/kenshy_7w7_" target="_blank"><i class="fab fa-twitch"></i></a>
+                </div> 
+            </div>   
+        </section>
+
+        <section class="portafolio">
+            <h1>Proyectos</h1>
+            <div class="container">
+                <div class="card">
+                    <a href="/portafolio.html#webapps-container"><img src="/img/code-5113374_1920.jpg" alt="Desarrollo Web/App"></a>
+                  <h2>Desarrollo Web/App</h2>
+                  <p>Aquí Encontraras proyectos Webs o Apps Desarrolladas por mi o en colaboración con otros colegas</p>
+                  <a href="/portafolio.html#webapps-container" class="btn">Ver más</a>
+                </div>
+                <div class="card">
+                    <a href="/portafolio.html#juegos-container"><img src="/img/code-5113374_1920.jpg" alt="Desarrolllo de Videojuegos"></a>
+                  <h2>Desarrollo de Videojuegos</h2>
+                  <p>Aquí Encontraras proyectos Webs o Apps Desarrolladas por mi o en colaboración con otros colegas</p>
+                  <a href="/portafolio.html#juegos-container" class="btn">Ver más</a>
+                </div>
+                <div class="card">
+                    <a href="/portafolio.html#prototipos-container"><img src="/img/code-5113374_1920.jpg" alt="Prototipos UI/UX"></a>
+                  <h2>Prototipos UI/UX</h2>
+                  <p>Aquí Encontraras proyectos Webs o Apps Desarrolladas por mi o en colaboración con otros colegas</p>
+                  <a href="/portafolio.html#prototipos-container" class="btn">Ver más</a>
+                </div>
+              </div>
+        </section>
+        
+        <section class="sobremi">
+            <div class="main">
+                <img  alt="">
+                <div class="text">
+                    <h2>Sobre Mi</h2>
+                    <p>
+                        Hola. Soy <span>KenshyDEV</span>, un desarrollador creativo y estudiante de ingeniería de sistemas. 
+                        Mi pasión por la innovación y la tecnología me impulsa a crear soluciones creativas que aborden los desafíos del mundo digital. 
+                        Con una mente curiosa y en constante aprendizaje, estoy comprometido/a a contribuir al avance de la tecnología
+                        y a crear experiencias únicas a través del desarrollo de software. 
+                        Acompáñame en este viaje hacia la excelencia tecnológica y la creatividad sin límites. 
+                        <span>¡Vamos a construir el futuro juntos!</span></p>
+
+                        <a href="/sobremi.html"><button class="btn">Ver Más</button></a>
+                </div>
+            </div>
+          </section>
+
+          <section class="contactame" id="contacto">
+            <div class="contenedor-contacto">
+                <h2>Contactame</h2>
+                <div class="contact">
+                    <div class="contact-form">
+                        <h3>Envia un Mensaje</h3>
+                        <form action="https://formspree.io/f/mjvnjwlw" method="POST">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Nombre Completo">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Correo Electronico">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" placeholder="Comentario"></textarea>
+                            </div>
+                            <button class="btnsubmit" type="submit">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Informacion de Contacto</h3>
+                        <p>kenshydev@gmail.com</p>
+                        <p>kcuamavalencia1503@gmail.com</p>
+                        <p><a href="https://www.tiktok.com/@_kenshy7w7_?lang=es" target="_blank"><i class="fab fa-whatsapp"></i></a> +57 322 8437466</p>
+                        <p><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a> _Kenshy7w7_</p>
+                        <p><a href="https://github.com/KenshyDEV" target="_blank"><i class="fab fa-github"></i></a> KenshyDEV</p>
+                    </div>
+                </div>
+            </div>
+          </section>
+       
+      </main>
+      <footer class="footer">
+        <p>© 2024 KenshyDEV | Un Desarrollador Creativo. All rights reserved.<br>
+        Desarrollado y Diseñado por Kevin Andres Cuama Valencia - KenshyDEV</p>
+      </footer>
+    
+      <script type="text/javascript" src="/scripts/nav.js"></script>
+      <script src="/scripts/sobremi.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>

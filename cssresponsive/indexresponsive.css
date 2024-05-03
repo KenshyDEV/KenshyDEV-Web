@@ -1,0 +1,95 @@
+/* Media queries para hacer la sección responsive */
+@media screen and (max-width: 768px) {
+    .home {
+        height: auto;
+        padding: 20px;
+    }
+
+    .perfilimg, .contenedor-perfil img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contenedor-perfil h1 {
+        font-size: 20px;
+    }
+
+    .contenedor-perfil p {
+        font-size: 15px;
+    }
+}
+
+
+/* Media queries para hacer la sección responsive */
+@media screen and (max-width: 768px) {
+    .portafolio{
+        height: auto !important;
+        padding-bottom: 40px;
+    }
+
+    .portafolio h1 {
+        font-size: 35px !important; /* Reducimos el tamaño de la fuente para dispositivos más pequeños */
+    }
+    
+    .portafolio .container .card {
+        max-width: 100%; /* Hacemos que las tarjetas ocupen el ancho completo en dispositivos más pequeños */
+    }
+
+}
+
+/* Media queries para hacer la sección responsive */
+@media screen and (max-width: 768px) {
+    .sobremi img {
+        height: 250px !important; /* Hacemos que la altura de la imagen se ajuste automáticamente */
+        width: 250px !important; /* Hacemos que la imagen ocupe el ancho completo del contenedor */
+        max-width: none; /* Eliminamos el ancho máximo para evitar que la imagen se estire */
+        border-radius: 100% !important; /* Eliminamos el radio de borde para que la imagen se ajuste completamente */
+
+    }
+
+    .sobremi .main {
+        flex-direction: column; /* Cambiamos la dirección del flujo a columna para el contenido */
+        align-items: center; /* Centramos los elementos horizontalmente */
+    }
+
+    .sobremi .text {
+        margin: 10px 0; /* Reducimos el margen del texto */
+        text-align: center; /* Centramos el texto */
+    }
+
+    .sobremi .text h2 {
+        font-size: 35px !important; /* Reducimos el tamaño de la fuente del título */
+    }
+
+    .sobremi .text p {
+        font-size: 20px !important; /* Reducimos el tamaño de la fuente del párrafo */
+    }
+
+    .sobremi .btn {
+        padding: 10px 20px; /* Reducimos el relleno del botón */
+        font-size: 13px; /* Reducimos el tamaño de la fuente del botón */
+        display: block; /* Aseguramos que el botón sea un bloque para que ocupe todo el ancho disponible */
+        margin: 20px auto; /* Centramos el botón horizontalmente */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contactame .contenedor-contacto{
+        padding: 20px;
+    }
+
+    .contactame .contact{
+        grid-template-columns:1fr !important;
+    }
+
+    .contactame h2{
+        font-size: 35px !important ;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer{
+        font-size: 12px;
+    }
+}

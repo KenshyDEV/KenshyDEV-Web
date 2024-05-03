@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+    .proyectos {
+        padding: 10px 5%; /* Reducimos el espacio de relleno en dispositivos más pequeños */
+    }
+
+    .proyectos h1 {
+        font-size: 35px !important; /* Reducimos el tamaño del título */
+        padding: 10px; /* Reducimos el espacio de relleno */
+    }
+
+    .proyectos .container {
+        flex-direction: column; /* Cambiamos la dirección del flexbox a columna */
+        align-items: center; /* Centramos los elementos horizontalmente */
+    }
+
+    .proyectos .container .card {
+        max-width: 90%; /* Hacemos que las tarjetas ocupen el ancho máximo disponible */
+        margin-bottom: 20px; /* Añadimos un margen inferior para separar las tarjetas */
+    }
+
+    .proyectos .container .card img {
+        height: auto; /* Permitimos que la altura de la imagen se ajuste automáticamente */
+    }
+
+    .proyectos .container .card h2,
+    .proyectos .container .card p {
+        text-align: center; /* Centramos el texto */
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .footer{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/cssresponsive/portafolioresponsive.css">
+    <link rel="stylesheet" href="/css/portafolio.css">
+    <title>Portafolio</title>
+</head>
+<body>
+  <header class="Header">
+    <div class="logo">
+        <a href="/index.html"><img src="/img/devlogo.svg" alt="Logo KenshyDEV"></a>
+        <h1>KenshyDEV</h1>
+    </div>
+    <nav class="nav-links">
+        <ul class="nav-list">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/sobremi.html">Sobre Mi</a></li>
+            <li><a href="/portafolio.html">Portafolio</a></li>
+        </ul>
+    </nav>
+    <a href="#contacto" class="btn"><button>Contactame</button></a> 
+
+    <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+<!---->        <div id="mobile-menu" class="overlay">
+<!---->            <a onclick="closeNav()" href="" class="close">&times;</a>
+<!---->            <div class="overlay-content">
+<!---->               <a href="/index.html"><i class="fas fa-home"></i> Inicio</a>
+                <a href="/sobremi.html"><i class="fas fa-user"></i> Sobre Mi</a>
+                <a href="/portafolio.html"><i class="fas fa-briefcase"></i> Portafolio</a>
+                <a href="/index.html#contacto"><i class="fa fa-phone"></i> Contactame</a>
+<!---->                
+<!---->            </div>
+<!---->        </div>
+
+</header>
+
+      <section class="proyectos">
+            <h1>Mis Proyectos</h1>
+            <!-- Contenedor para proyectos de la categoría "webapps" -->
+            <div class="container" id="webapps-container">
+              <!-- Contenido de proyectos cargado dinámicamente -->
+            </div>
+
+            <hr class="separador">
+
+            <!-- Contenedor para proyectos de la categoría "juegos" -->
+            <div class="container" id="juegos-container">
+              <!-- Contenido de proyectos cargado dinámicamente -->
+            </div>
+
+            <hr class="separador">
+
+            <!-- Contenedor para proyectos de la categoría "prototipos" -->
+            <div class="container" id="prototipos-container">
+              <!-- Contenido de proyectos cargado dinámicamente -->
+            </div>
+      </section>
+
+      <footer class="footer">
+        <p>© 2024 KenshyDEV | Un Desarrollador Creativo. All rights reserved.<br>
+        Desarrollado y Diseñado por Kevin Andres Cuama Valencia - KenshyDEV</p>
+      </footer>
+      <script type="text/javascript" src="/scripts/nav.js"></script>
+      <script src="/scripts/sobremi.js"></script>
+      <script src="/scripts/portafolio.js"></script>
+</body>
+</html>

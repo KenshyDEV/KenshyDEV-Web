@@ -1,0 +1,114 @@
+@media screen and (max-width: 768px) {
+    /* Estilos generales para dispositivos pequeños */
+    .home {
+        height: auto;
+        padding: 20px;
+    }
+
+    .perfilimg, .contenedor-perfil img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contenedor-perfil h1 {
+        font-size: 20px;
+    }
+
+    .contenedor-perfil p {
+        font-size: 15px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+
+    /* Estilos específicos para secciones */
+    .sobremi .fila,
+    .skills .fila,
+    .curriculum .fila {
+        flex-direction: column;
+    }
+
+    .sobremi .fila .col h3,
+    .skills .fila .col h3,
+    .curriculum .fila .col h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .sobremi .fila .col,
+    .skills .fila .col,
+    .curriculum .fila .col {
+        width: 100%;
+    }
+
+    .sobremi .contenedor-intereses,
+    .skills .skill .barra-skill,
+    .curriculum .fila .col {
+        width: 200%;
+    }
+
+    .skills .skill .barra-skill{
+        width: 466px !important;
+    }
+
+    .skills .fila .col h3{
+        font-size: 25px !important;
+        text-align: center !important;
+        width: 466px !important;
+    }
+
+    .curriculum h2 {
+        font-size: 35px !important;
+    }
+
+    .curriculum .fila .col h3{
+        font-size: 25px !important;
+        width: 466px !important;
+    }
+
+    .curriculum .fila .col {
+        width: 105%;
+        padding: 0;
+    }
+
+    .curriculum .fila .izquierda,
+    .curriculum .fila .derecha {
+        border: none;
+        margin: 0;
+    }
+
+    .curriculum .fila .derecha {
+        margin-left: -20px;
+    }
+
+    .curriculum .fila .derecha h3 {
+        margin-left: 20px;
+    }
+
+    .curriculum .fila .item {
+        margin-bottom: 20px;
+        width: 466px;
+    }
+
+    .curriculum .fila .item .conectori,
+    .curriculum .fila .item .conectord {
+        display: none;
+    }
+
+    .curriculum .fila .izquierda{
+        border: none !important;
+    }
+    .curriculum .fila .derecha{
+        border: none !important;
+    }
+
+    /* Personalización de la barra de desplazamiento */
+    ::-webkit-scrollbar-thumb {
+        display: none ;
+    }
+
+    ::-webkit-scrollbar {
+        width: 1px;
+    }
+}

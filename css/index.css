@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif; 
+}
+
+/* ESTILOS HEADER */
+
+.Header {
+  background-color: #23232C;
+  display: flex;
+  justify-content: flex-end; /* Use space-between instead of flex-end */
+  align-items: center;
+  padding: 5px 15%;
+}
+
+.Header .logo {
+  display: flex; 
+  align-items: center;
+  margin-right: auto;
+  padding-top: 5px;
+  
+}
+
+.Header .logo img {
+  height: 5vh;
+  margin-right: 5px;  
+}
+
+
+.Header .nav-links li {
+  display: inline-block;
+  padding: 0;
+}
+
+
+.Header .logo h1 {
+  font-size: 1.8rem;
+  color: white;
+  margin: 0;
+}
+
+.Header .nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.Header .nav-links li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.Header .nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.Header .nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.Header .nav-links a:hover {
+    color: aqua;
+}
+
+.Header .btn button,
+.Header .menu button {
+    position: relative;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    padding: 13px 20px;
+    margin-left: 15px;
+    background: #ffffff;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/**/.menu {
+    display:none;
+}
+
+.Header .btn button:hover,
+/**/.header .menu button:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 14px 0px rgb(2, 255, 255);
+    background-color: aqua;
+}
+
+
+/*nav estilos menu*/
+
+
+/**/@media screen and (max-width: 800px){
+    .nav-links, .btn {
+        display: none;
+    }
+    .menu {
+        display: inherit;
+    }
+}
+
+
+/*Nav Mobile*/
+
+.Header a{
+    text-decoration: none;  
+    /*borramos el que teniamos en .header .nav-links a*/ 
+}
+
+.Header .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #423E4D;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.Header .overlay .overlay-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.Header .overlay a{
+    padding: 15px;
+    font-size: 30px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.Header .overlay a:hover, 
+.Header .overlay a:focus{
+    color: #8E7A91;
+}
+
+.Header .overlay .close{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 65px;
+}
+
+@media screen and (max-height:450px) {
+    .Header .overlay a{
+        font-size: 20px;
+    }
+    .Header .overlay .close{
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/*ESTILOS HOME*/
+
+/* Estilos para la sección principal */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #23232C;
+    height: 60vh;
+}
+
+.home .contenedor-perfil{
+    text-align: center; /* Centra horizontalmente el contenido */
+}
+
+.home .contenedor-perfil .perfilimg{
+    display: inline-block; /* Asegura que la imagen sea un bloque en línea */
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.home .contenedor-perfil img{
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover; 
+    object-position: center; 
+    border: 4px solid #00eeff; 
+    box-shadow: 0px 0px 20px 0px rgb(2, 255, 255);
+}
+
+.home .contenedor-perfil h1{
+    font-size: 40px;
+    color: #ffff;
+    pointer-events: none; 
+}
+
+.home .contenedor-perfil h1 .highlight {
+    color: #00eeff;
+}
+
+.home .contenedor-perfil p{
+    font-size: 30px;
+    color: #ffff;
+    pointer-events: none; 
+}
+
+.home .contenedor-perfil .redes{
+    text-align: center; /* Centra el texto de las redes sociales */
+    margin-top: 5px;
+    font-size: 1.5rem;
+    transition: all 0.3s ease 0s;
+}
+
+.home .contenedor-perfil .redes a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 1px;
+    transition: all 0.3s ease 0s;  
+}
+
+.home .contenedor-perfil .redes a:hover {
+    color: #00eeff;
+    transform: scale(1.1);
+}
+
+
+
+/*ESTILOS PORTAFOLIO MAIN*/
+
+.portafolio{
+    background-color: #423E4D;
+    height: 65vh;
+}
+
+.portafolio h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 20px;
+}
+
+.portafolio .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.portafolio .container  .card {
+    background-color: #665B6E;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    max-width: 400px;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.portafolio .container  .card:hover {
+    transform: scale(1.1);
+}
+
+.portafolio .container  .card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+.portafolio .container  .card h2 {
+    margin-top: 10px;
+    text-align: left;
+    color: #fff;
+}
+
+.portafolio .container  .card p {
+    margin-bottom: 20px;
+    text-align: left;
+    color: white;
+}
+
+.portafolio .container  .btn {
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+}
+
+.portafolio .container  .btn:hover {
+    color: aqua;
+    transform: scale(1.1);
+}
+
+
+/*ESTILOS SOBRE MI*/
+
+.sobremi {
+    background-color: #23232C;
+    width: 100%;
+    padding: 78px 0%;  
+}
+
+
+.sobremi img{
+    height: 500px;
+    width: 500px;
+    border-radius: 3%;
+    border: #00eeff solid 3px;
+    background-image: url(/img/y02.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 20px 0px rgb(2, 255, 255);
+    
+}
+
+.sobremi .text{
+    width: 100%;
+    margin: 30px;
+}
+
+.sobremi .main{
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.sobremi .text h2{
+    color: #fff;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.sobremi .text p{
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+
+.sobremi .text span{
+    color: #00eeff;
+}
+
+
+.sobremi .btn{
+    background-color: #fff;
+    color: #23232C;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 13px 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sobremi .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 14px 0px rgb(2, 255, 255);
+    background-color: aqua;
+}
+
+
+
+
+/*ESTILOS CONTACTO*/
+
+.contactame{
+    background-color: #423E4D;
+    padding: 50px;
+    text-align: center;
+}
+
+.contactame .contenedor-contacto{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contactame h2{
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.contactame .contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+}
+
+.contactame .contact-form{
+    text-align: left;
+}
+
+.contactame .contact-form h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contactame .form-group{
+    margin-bottom: 20px;
+
+}
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: #8E7A91;
+    color: #fff;
+}
+
+::placeholder{
+    color: #fff;
+    font-weight: bold;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px #ffffff;
+    color: #fff;
+    
+}
+
+.contactame .btnsubmit{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.contactame .btnsubmit:hover{ 
+    background-color: #00eeff;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 14px 0px rgb(2, 255, 255);
+}
+
+.contactame .contact-info{
+    text-align: left;
+}
+
+.contactame .contact-info h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.contactame .contact-info p{
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contactame .contact-info i{
+    color: #fff;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.contactame .contact-info i:hover{
+    color: #00f7ff;
+    transform: scale(1.1);
+}
+
+
+
+.footer {
+    text-align: center; /* Para centrar el contenido */
+    background-color: #23232C; /* Color de fondo del footer */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+}
+
+
+/* Estilos para la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 5px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00f7ff; /* Color del thumb de la barra de desplazamiento */
+    border-radius: 10px; /* Radio de la esquina del thumb */
+    z-index: 9999; /* Superpone el thumb sobre la página */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00b3b3; /* Color del thumb cuando se pasa el ratón sobre él */
+}
