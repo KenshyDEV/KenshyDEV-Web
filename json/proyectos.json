@@ -7,6 +7,13 @@
       "url": "https://mc-consultorias-comerciales.jimdosite.com"
     },
     {
+      "category": "webapps",
+      "title": "Sistema de Prestamos Biblioteca Beta 1",
+      "description": "Una web de biblioteca con sistema de prestamos basico beta 1",
+      "image": "/proyectosimg/Sistema Prestamos Biblioteca Beta 1.png",
+      "url": "https://github.com/KenshyDEV/Sistema-de-Prestamos-Biblioteca"
+    },
+    {
       "category": "juegos",
       "title": "Juego1",
       "description": "Descripción del juego 1",
