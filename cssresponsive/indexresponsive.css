@@ -91,7 +91,11 @@
 
     .contactame .contact{
         grid-template-columns:1fr !important;
-        width: 90% !importante;
+        width: 90% !important;
+    }
+
+    .contactame .contenedor-contacto .contacto      .contact-form{ 
+       width: 90% !important;
     }
 
     .contactame h2{
