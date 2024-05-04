@@ -6,16 +6,16 @@
     }
 
     .perfilimg, .contenedor-perfil img {
-        width: 160px !important;
-        height: 160px !important;
+        width: 150px;
+        height: 150px;
     }
 
     .contenedor-perfil h1 {
-        font-size: 25px !important;
+        font-size: 20px;
     }
 
     .contenedor-perfil p {
-        font-size: 20px !important;
+        font-size: 15px;
     }
 
     .footer {
@@ -23,10 +23,14 @@
     }
 
     /* Estilos específicos para secciones */
-
     .sobremi .contenido-seccion{
-         width: 90% !important;
+        width: 95% !important;
     }
+
+    .skills .contenido-seccion{
+        width: 95% !important;
+    }
+
     .sobremi .fila,
     .skills .fila,
     .curriculum .fila {
@@ -43,7 +47,7 @@
     .sobremi .fila .col,
     .skills .fila .col,
     .curriculum .fila .col {
-        width: 100%;
+        width: 100px !important;
     }
 
     .sobremi .contenedor-intereses,
@@ -53,13 +57,18 @@
     }
 
     .skills .skill .barra-skill{
-        width: 466px !important;
+        width: 300px !important;
     }
 
     .skills .fila .col h3{
-        font-size: 25px !important;
-        text-align: center !important;
-        width: 466px !important;
+        font-size: 20px !important;
+        text-align: left !important;
+        
+    }
+
+
+    .curriculum .contenido-seccion{
+        width: 100%;
     }
 
     .curriculum h2 {
@@ -67,12 +76,13 @@
     }
 
     .curriculum .fila .col h3{
-        font-size: 25px !important;
-        width: 466px !important;
+        font-size: 20px !important;
+        text-align: left;
+        width: px !important;
     }
 
     .curriculum .fila .col {
-        width: 105%;
+        width: 10%;
         padding: 0;
     }
 
@@ -92,7 +102,7 @@
 
     .curriculum .fila .item {
         margin-bottom: 20px;
-        width: 466px;
+        width: 350px;
     }
 
     .curriculum .fila .item .conectori,
