@@ -68,7 +68,7 @@
 
 
     .curriculum .contenido-seccion{
-        width: 100%;
+        width: 95% !important;
     }
 
     .curriculum h2 {
