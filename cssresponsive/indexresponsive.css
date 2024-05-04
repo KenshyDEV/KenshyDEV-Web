@@ -28,7 +28,7 @@
     }
 
     .portafolio h1 {
-        font-size: 30px !important; /* Reducimos el tamaño de la fuente para dispositivos más pequeños */
+        font-size: 35px !important; /* Reducimos el tamaño de la fuente para dispositivos más pequeños */
     }
     
     .portafolio .container .card {
@@ -63,7 +63,7 @@
     }
 
     .sobremi .text h2 {
-        font-size: 25px !important; /* Reducimos el tamaño de la fuente del título */
+        font-size: 35px !important; /* Reducimos el tamaño de la fuente del título */
     }
 
     .sobremi .text p {
