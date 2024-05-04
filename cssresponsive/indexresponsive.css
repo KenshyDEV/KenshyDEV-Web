@@ -32,7 +32,7 @@
     }
     
     .portafolio .container .card {
-        max-width: 80%; /* Hacemos que las tarjetas ocupen el ancho completo en dispositivos más pequeños */
+        max-width: 75% !important; /* Hacemos que las tarjetas ocupen el ancho completo en dispositivos más pequeños */
     }
 
 }
@@ -41,6 +41,7 @@
 @media screen and (max-width: 768px) {
     .sobremi{
          height: auto !important;
+         width: 85%;
     }
     
     .sobremi img {
@@ -67,7 +68,6 @@
 
     .sobremi .text p {
         font-size: 15px !important; /* Reducimos el tamaño de la fuente del párrafo */
-        width: 80%;
     }
 
     .sobremi .btn {
