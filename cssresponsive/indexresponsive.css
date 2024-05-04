@@ -6,16 +6,16 @@
     }
 
     .perfilimg, .contenedor-perfil img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
 
     .contenedor-perfil h1 {
-        font-size: 15px;
+        font-size: 15px !important;
     }
 
     .contenedor-perfil p {
-        font-size: 10px;
+        font-size: 10px !important;
     }
 }
 
