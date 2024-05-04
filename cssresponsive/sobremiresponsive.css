@@ -23,6 +23,10 @@
     }
 
     /* Estilos específicos para secciones */
+
+    .sobremi{
+         width: 90% !important;
+    }
     .sobremi .fila,
     .skills .fila,
     .curriculum .fila {
