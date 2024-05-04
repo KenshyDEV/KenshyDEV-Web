@@ -32,7 +32,7 @@
     }
     
     .portafolio .container .card {
-        max-width: 100%; /* Hacemos que las tarjetas ocupen el ancho completo en dispositivos más pequeños */
+        max-width: 90%; /* Hacemos que las tarjetas ocupen el ancho completo en dispositivos más pequeños */
     }
 
 }
@@ -40,8 +40,8 @@
 /* Media queries para hacer la sección responsive */
 @media screen and (max-width: 768px) {
     .sobremi img {
-        height: 250px !important; /* Hacemos que la altura de la imagen se ajuste automáticamente */
-        width: 250px !important; /* Hacemos que la imagen ocupe el ancho completo del contenedor */
+        height: 160px !important; /* Hacemos que la altura de la imagen se ajuste automáticamente */
+        width: 160px !important; /* Hacemos que la imagen ocupe el ancho completo del contenedor */
         max-width: none; /* Eliminamos el ancho máximo para evitar que la imagen se estire */
         border-radius: 100% !important; /* Eliminamos el radio de borde para que la imagen se ajuste completamente */
 
@@ -53,16 +53,16 @@
     }
 
     .sobremi .text {
-        margin: 10px 0; /* Reducimos el margen del texto */
+        margin: 5px 0; /* Reducimos el margen del texto */
         text-align: center; /* Centramos el texto */
     }
 
     .sobremi .text h2 {
-        font-size: 35px !important; /* Reducimos el tamaño de la fuente del título */
+        font-size: 25px !important; /* Reducimos el tamaño de la fuente del título */
     }
 
     .sobremi .text p {
-        font-size: 20px !important; /* Reducimos el tamaño de la fuente del párrafo */
+        font-size: 15px !important; /* Reducimos el tamaño de la fuente del párrafo */
     }
 
     .sobremi .btn {
