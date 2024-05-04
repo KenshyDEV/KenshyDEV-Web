@@ -24,7 +24,7 @@
 
     /* Estilos específicos para secciones */
 
-    .sobremi{
+    .sobremi .contenido-seccion{
          width: 90% !important;
     }
     .sobremi .fila,
