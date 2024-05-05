@@ -98,19 +98,20 @@
 /*nav estilos menu*/
 
 
-/**/@media screen and (max-width: 800px){
-
-    .Header{
+@media screen and (max-width: 430px) and (min-height: 800px) and (max-height: 932px) {
+    .Header {
         padding: 5px 15%;
     }
-    
+
     .nav-links, .btn {
         display: none;
     }
+
     .menu {
         display: inherit;
     }
 }
+
 
 
 /*Nav Mobile*/
