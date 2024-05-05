@@ -162,7 +162,7 @@
     font-size: 65px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-height:450px){
     .Header .overlay a{
         font-size: 20px;
     }
