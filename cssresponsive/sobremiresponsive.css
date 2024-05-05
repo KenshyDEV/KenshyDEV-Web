@@ -61,7 +61,7 @@
     .sobremi .fila,
     .skills .fila,
     .curriculum .fila {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .sobremi .fila .col h3,
@@ -69,7 +69,7 @@
     .curriculum .fila .col h3 {
         font-size: 25px;
         text-align: center;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .sobremi .fila .col,
