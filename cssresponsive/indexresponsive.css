@@ -46,7 +46,7 @@
 
     .sobremi .main{
         width: 80% !important;
-        justify-content: space-between; /* Cambiamos la dirección del flujo a columna para el contenido */
+        flex-direction: column; /* Cambiamos la dirección del flujo a columna para 
         align-items: center; /* Centramos los elementos horizontalmente */
     }
     
