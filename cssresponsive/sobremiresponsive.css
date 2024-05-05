@@ -23,86 +23,78 @@
     }
 
     /* Estilos específicos para secciones */
-    .sobremi{
+    .sobremi {
         width: 100% !important;
     }
-    
-    .sobremi .contenido-seccion{
+
+    .sobremi .contenido-seccion {
         width: 90% !important;
     }
 
-    .sobremi .contenido-seccion h2{
+    .sobremi .contenido-seccion h2 {
         font-size: 30px !important;
         text-align: center !important;
         padding: 20px !important;
     }
 
-    sobremi .contenido-seccion p{
+    .sobremi .contenido-seccion p {
         width: 95% !important;
         text-align: justify !important;
-        font-size: 16px;
+        font-size: 16px !important; /* Agregado !important */
     }
 
-    .sobremi .contenido-seccion .fila{
-        width: 90% !important;
-    }
-
-    .sobremi .contenido-seccion .fila .col{
-        width: 90% !important;
-    }
-
-    .sobremi .contenido-seccion .fila .col li{
-        flex-direction: row;
-        width: 90% !important;
-    }
-
-    .skills{
-        width: 100% !important;
-    }
-    
-    .skills .contenido-seccion{
-        width: 90% !important;
-    }
-
-    .skills .contenido-seccion .filas .col .skill span{
-        width: 90% !important;
-        text-align: justify;
-    }
-    
-    .sobremi .fila,
-    .skills .fila,
-    .curriculum .fila {
+    .sobremi .contenido-seccion .fila {
+        display: flex; /* Agregado display: flex */
         flex-direction: column;
         width: 90% !important;
     }
 
-    .sobremi .fila .col h3,
-    .skills .fila .col h3,
-    .curriculum .fila .col h3 {
-        font-size: 20px !important;
-        text-align: justify;
+    .sobremi .contenido-seccion .fila .col {
+        width: 100% !important; /* Cambiado a 100% */
+    }
+
+    .sobremi .contenido-seccion .fila .col li {
         flex-direction: row;
         width: 90% !important;
     }
 
-    .sobremi .fila .col,
+    .skills {
+        width: 100% !important;
+    }
+
+    .skills .contenido-seccion {
+        width: 90% !important;
+    }
+
+    .skills .contenido-seccion .filas .col .skill span {
+        width: 90% !important;
+        text-align: justify;
+    }
+
+    .skills .fila,
+    .curriculum .fila {
+        display: flex; /* Agregado display: flex */
+        flex-direction: column;
+        width: 90% !important;
+    }
+
+    .skills .fila .col h3,
+    .curriculum .fila .col h3 {
+        font-size: 20px !important;
+        text-align: justify;
+        width: 90% !important;
+    }
+
     .skills .fila .col,
     .curriculum .fila .col {
-        width: 100px !important;
+        width: 100% !important; /* Cambiado a 100% */
     }
 
-    .sobremi .contenedor-intereses,
-    .skills .skill .barra-skill,
-    .curriculum .fila .col {
-        width: 100%;
-    }
-
-    .skills .skill .barra-skill{
+    .skills .skill .barra-skill {
         width: 300px !important;
     }
 
-    
-    .curriculum .contenido-seccion{
+    .curriculum .contenido-seccion {
         width: 95% !important;
     }
 
@@ -111,7 +103,7 @@
     }
 
     .curriculum .fila .col {
-        width: 10%;
+        width: 100% !important; /* Cambiado a 100% */
         padding: 0;
     }
 
@@ -131,7 +123,7 @@
 
     .curriculum .fila .item {
         margin-bottom: 20px;
-        width: 300px;
+        width: 100% !important; /* Cambiado a 100% */
     }
 
     .curriculum .fila .item .conectori,
@@ -139,16 +131,14 @@
         display: none;
     }
 
-    .curriculum .fila .izquierda{
-        border: none !important;
-    }
-    .curriculum .fila .derecha{
+    .curriculum .fila .izquierda,
+    .curriculum .fila .derecha {
         border: none !important;
     }
 
     /* Personalización de la barra de desplazamiento */
     ::-webkit-scrollbar-thumb {
-        display: none ;
+        display: none;
     }
 
     ::-webkit-scrollbar {
