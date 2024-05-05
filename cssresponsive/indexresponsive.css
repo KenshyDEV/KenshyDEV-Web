@@ -46,7 +46,7 @@
 
     .sobremi .main{
         width: 80% !important;
-        flex-direction: column; /* Cambiamos la dirección del flujo a columna para 
+        flex-direction: column; /* Cambiamos la dirección del flujo a columna para*/ 
         align-items: center; /* Centramos los elementos horizontalmente */
     }
     
@@ -60,7 +60,7 @@
     .sobremi .main .text {
         width: 80% !important;
         margin: 5px 0; /* Reducimos el margen del texto */
-        text-align: center; /* Centramos el texto */
+        
     }
 
     .sobremi .text h2 {
@@ -69,6 +69,7 @@
 
     .sobremi .text p {
         font-size: 15px !important; /* Reducimos el tamaño de la fuente del párrafo */
+        text-align: justify; /* justificamos texto */
     }
 
     .sobremi .btn {
@@ -87,20 +88,23 @@
 
     .contactame .contenedor-contacto{
         padding: 15px;
-        width: 90% !important;
+        width: 95% !important;
     }
 
-    .contactame .contact{
+    .contactame .contenedor-contacto .contact{
         grid-template-columns:1fr !important;
         width: 90% !important;
+        align-items: center;
     }
 
     .contactame .contenedor-contacto .contacto .contact-form{ 
        width: 90% !important;
+       align-items: center;
     }
 
      .contactame .contenedor-contacto .contacto .contact-info{ 
        width: 90% !important;
+       align-items: center;
     }
 
     .contactame h2{
