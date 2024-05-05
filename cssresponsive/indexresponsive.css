@@ -28,11 +28,11 @@
     }
 
     .portafolio h1 {
-        font-size: 35px !important; /* Reducimos el tamaño de la fuente para dispositivos más pequeños */
+        font-size: 30px !important; /* Reducimos el tamaño de la fuente para dispositivos más pequeños */
     }
     
     .portafolio .container .card {
-        max-width: 75% !important; /* Hacemos que las tarjetas ocupen el ancho completo en dispositivos más pequeños */
+        max-width: 70% !important; /* Hacemos que las tarjetas ocupen el ancho completo en dispositivos más pequeños */
     }
 
 }
@@ -41,29 +41,30 @@
 @media screen and (max-width: 768px) {
     .sobremi{
          height: auto !important;
-         width: 85%;
+         width: 100%;
+    }
+
+    .sobremi .main{
+        width: 80% !important;
+        justify-content: space-between; /* Cambiamos la dirección del flujo a columna para el contenido */
+        align-items: center; /* Centramos los elementos horizontalmente */
     }
     
     .sobremi img {
         height: 160px !important; /* Hacemos que la altura de la imagen se ajuste automáticamente */
         width: 160px !important; /* Hacemos que la imagen ocupe el ancho completo del contenedor */
-        max-width: none; /* Eliminamos el ancho máximo para evitar que la imagen se estire */
         border-radius: 100% !important; /* Eliminamos el radio de borde para que la imagen se ajuste completamente */
 
     }
 
-    .sobremi .main {
-        flex-direction: column; /* Cambiamos la dirección del flujo a columna para el contenido */
-        align-items: center; /* Centramos los elementos horizontalmente */
-    }
-
-    .sobremi .text {
+    .sobremi .main .text {
+        width: 80% !important;
         margin: 5px 0; /* Reducimos el margen del texto */
         text-align: center; /* Centramos el texto */
     }
 
     .sobremi .text h2 {
-        font-size: 35px !important; /* Reducimos el tamaño de la fuente del título */
+        font-size: 30px !important; /* Reducimos el tamaño de la fuente del título */
     }
 
     .sobremi .text p {
@@ -85,8 +86,8 @@
     }
 
     .contactame .contenedor-contacto{
-        padding: 20px;
-        width: 95% !important;
+        padding: 15px;
+        width: 90% !important;
     }
 
     .contactame .contact{
@@ -94,7 +95,11 @@
         width: 90% !important;
     }
 
-    .contactame .contenedor-contacto .contacto      .contact-form{ 
+    .contactame .contenedor-contacto .contacto .contact-form{ 
+       width: 90% !important;
+    }
+
+     .contactame .contenedor-contacto .contacto .contact-info{ 
        width: 90% !important;
     }
 
