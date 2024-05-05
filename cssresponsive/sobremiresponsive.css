@@ -72,7 +72,7 @@
     .sobremi .fila .col h3,
     .skills .fila .col h3,
     .curriculum .fila .col h3 {
-        font-size: 25px;
+         font-size: 20px !important;
         text-align: justify;
         flex-direction: column;
         width: 90% !important;
@@ -100,7 +100,7 @@
     }
 
     .curriculum h2 {
-        font-size: 35px !important;
+        font-size: 30px !important;
     }
 
     .curriculum .fila .col {
