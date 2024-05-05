@@ -31,17 +31,26 @@
         width: 90% !important;
     }
 
-    .sobremi .contenido-seccion .h2{
+    .sobremi .contenido-seccion h2{
         font-size: 30px !important;
         text-align: center !important;
     }
 
-    sobremi .contenido-seccion .p{
+    sobremi .contenido-seccion p{
         text-align: justify !important;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .sobremi .contenido-seccion .fila{
+        width: 90% !important;
+    }
+
+    .sobremi .contenido-seccion .fila .col{
+        width: 90% !important;
+    }
+
+    .sobremi .contenido-seccion .fila .col li{
+        flex-direction: row;
         width: 90% !important;
     }
 
