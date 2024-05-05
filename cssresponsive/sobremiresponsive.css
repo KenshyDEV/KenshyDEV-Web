@@ -37,6 +37,7 @@
     }
 
     sobremi .contenido-seccion p{
+        width: 95% !important;
         text-align: justify !important;
         font-size: 16px;
     }
@@ -68,8 +69,9 @@
     .skills .fila .col h3,
     .curriculum .fila .col h3 {
         font-size: 25px;
-        text-align: center;
+        text-align: left;
         flex-direction: column;
+        width: 90% !important;
     }
 
     .sobremi .fila .col,
@@ -88,25 +90,13 @@
         width: 300px !important;
     }
 
-    .skills .fila .col h3{
-        font-size: 20px !important;
-        text-align: left !important;
-        
-    }
-
-
+    
     .curriculum .contenido-seccion{
         width: 95% !important;
     }
 
     .curriculum h2 {
         font-size: 35px !important;
-    }
-
-    .curriculum .fila .col h3{
-        font-size: 20px !important;
-        text-align: left;
-        width: px !important;
     }
 
     .curriculum .fila .col {
