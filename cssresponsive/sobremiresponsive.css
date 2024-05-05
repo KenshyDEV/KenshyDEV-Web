@@ -62,11 +62,16 @@
     .skills .contenido-seccion{
         width: 90% !important;
     }
+
+    .skills .contenido-seccion .filas .col .skill span{
+        width: 90% !important;
+    }
     
     .sobremi .fila,
     .skills .fila,
     .curriculum .fila {
         flex-direction: column;
+        width: 90% !important;
     }
 
     .sobremi .fila .col h3,
