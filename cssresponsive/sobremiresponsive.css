@@ -23,18 +23,36 @@
     }
 
     /* Estilos específicos para secciones */
+    .sobremi{
+        width: 100% !important;
+    }
+    
     .sobremi .contenido-seccion{
-        width: 95% !important;
+        width: 90% !important;
+    }
+
+    .sobremi .contenido-seccion h2{
+        font-size: 30px !important;
+        text-align: center !important;
+    }
+
+    sobremi .contenido-seccion p{
+        text-align: justify !important;
+        font-size: 20px;
+    }
+
+    .sobremi .contenido-seccion .fila{
+        width: 90% !important;
     }
 
     .skills .contenido-seccion{
-        width: 95% !important;
+        width: 90% !important;
     }
-
+    
     .sobremi .fila,
     .skills .fila,
     .curriculum .fila {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .sobremi .fila .col h3,
@@ -42,6 +60,7 @@
     .curriculum .fila .col h3 {
         font-size: 25px;
         text-align: center;
+        flex-direction: row;
     }
 
     .sobremi .fila .col,
@@ -53,7 +72,7 @@
     .sobremi .contenedor-intereses,
     .skills .skill .barra-skill,
     .curriculum .fila .col {
-        width: 200%;
+        width: 100%;
     }
 
     .skills .skill .barra-skill{
