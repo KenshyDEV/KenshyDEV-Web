@@ -58,13 +58,14 @@
     }
 
     .sobremi .main .text {
-        width: 80% !important;
+        width: 90% !important;
         margin: 5px 0; /* Reducimos el margen del texto */
         
     }
 
     .sobremi .text h2 {
         font-size: 30px !important; /* Reducimos el tamaño de la fuente del título */
+        text-align: center; /* centramos texto */
     }
 
     .sobremi .text p {
@@ -87,7 +88,6 @@
     }
 
     .contactame .contenedor-contacto{
-        padding: 15px;
         width: 95% !important;
     }
 
