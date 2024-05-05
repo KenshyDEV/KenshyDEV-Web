@@ -99,6 +99,9 @@
   
   
   /**/@media screen and (max-width: 800px){
+      .Header {
+        padding: 5px 10%;
+      }
       .nav-links, .btn {
           display: none;
       }
