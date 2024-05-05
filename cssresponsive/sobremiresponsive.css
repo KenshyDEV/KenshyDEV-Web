@@ -73,7 +73,7 @@
     .skills .fila .col h3,
     .curriculum .fila .col h3 {
         font-size: 25px;
-        text-align: left;
+        text-align: justify;
         flex-direction: column;
         width: 90% !important;
     }
