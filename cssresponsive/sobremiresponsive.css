@@ -34,6 +34,7 @@
     .sobremi .contenido-seccion h2{
         font-size: 30px !important;
         text-align: center !important;
+        padding: 20px !important;
     }
 
     sobremi .contenido-seccion p{
@@ -77,9 +78,9 @@
     .sobremi .fila .col h3,
     .skills .fila .col h3,
     .curriculum .fila .col h3 {
-         font-size: 20px !important;
+        font-size: 20px !important;
         text-align: justify;
-        flex-direction: column;
+        flex-direction: row;
         width: 90% !important;
     }
 
