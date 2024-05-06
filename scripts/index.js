@@ -13,6 +13,11 @@ $(document).ready(function(){
     });
 });
 
+function like() {
+    var likeCount = parseInt(document.getElementById('like-count').innerText); // Obtener el conteo actual de likes
+    likeCount++; // Incrementar el conteo de likes
+    document.getElementById('like-count').innerText = likeCount; // Actualizar el conteo de likes en el elemento span
+}
 
 
 
